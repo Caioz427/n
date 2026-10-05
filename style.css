@@ -1,0 +1,75 @@
+body{background-color: rgb(235, 233, 233);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.cabecalho{
+    text-align: center;
+}
+.vitrine{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.cartao-produto{
+    background-color: white;
+    padding: 20px;
+    max-width: 350px;
+    margin: 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgb(0,0,0,0.1);
+    text-align: center;
+}
+img{
+    width: 250px;
+    border-radius: 15px;
+}
+.valor{
+    font-weight: bold;
+    color: rgb(49, 49, 175);
+    font-size: 24px;
+}
+.preco{
+    font-size: 20px;
+}
+ul{
+    list-style-position: inside;
+}
+.link-cartao{
+    text-decoration: none;
+    color: inherit;
+
+}
+.cartao-produto:hover{
+    background-color: rgba(197, 197, 197, 0.904);
+}
+.detalhe-produto{
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgb(0,0,0,0.1);
+}
+.detalhe-produto h1{
+    text-align: center;
+}
+.detalhe-produto img{
+    display: block;
+    margin: 0 auto 20px auto;
+}
+.botao-whatsapp{
+    display: inline-block;
+    background-color: green;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 12px;
+}
+.botao-whatsapp:hover{
+    background-color: darkgreen;
+    transform:scale(1.05)
+}
+footer{
+    text-align: center;
+}
